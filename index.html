@@ -20,11 +20,10 @@ body { background: var(--cinza-claro); }
 .projeto-desc { color: #4B5563; line-height: 1.7; font-size: 0.95rem; }
 .projeto-tags { margin-top: 16px; }
 .semanas-grid { max-width: 960px; margin: 0 auto 60px; padding: 0 20px; }
-.semana-bloco { margin-bottom: 32px; }
+.semana-bloco { margin-bottom: 24px; }
 .semana-titulo { font-family: 'Space Mono', monospace; font-size: 0.8rem; letter-spacing: 2px; color: var(--roxo); text-transform: uppercase; margin-bottom: 12px; display: flex; align-items: center; gap: 12px; }
 .semana-titulo::after { content: ''; flex: 1; height: 2px; background: linear-gradient(90deg, var(--roxo-claro), transparent); }
-.aulas-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-@media(max-width: 700px) { .aulas-row { grid-template-columns: 1fr; } }
+.aulas-row { display: grid; grid-template-columns: 1fr; gap: 16px; }
 .aula-card { background: white; border-radius: 18px; padding: 22px; box-shadow: var(--sombra); text-decoration: none; display: block; transition: all 0.3s; position: relative; overflow: hidden; border: 2px solid transparent; }
 .aula-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; }
 .aula-card.revisao::before { background: linear-gradient(90deg, #9CA3AF, #D1D5DB); }
@@ -55,12 +54,12 @@ body { background: var(--cinza-claro); }
 <div class="hero">
   <div class="hero-badge">🏫 EE Manoel Bonifácio Nunes da Cunha</div>
   <h1>🔬 Investigação Científica e Tecnológica</h1>
-  <h2>2º Bimestre 2026 — 1º Ano A · 2 aulas de 50 min por semana · segundas-feiras</h2>
+  <h2>2º Bimestre 2026 — 1º Ano A · 1 aula de 50 min por semana · segundas-feiras</h2>
   <div class="hero-info">
     <span class="hero-pill">📅 04/05 → 13/07/2026</span>
     <span class="hero-pill">📆 Toda 2ª feira</span>
-    <span class="hero-pill">⏱ 2 tempos de 50 min</span>
-    <span class="hero-pill">📚 22 aulas HTML</span>
+    <span class="hero-pill">⏱ 1 tempo de 50 min</span>
+    <span class="hero-pill">📚 11 aulas HTML</span>
   </div>
 </div>
 
@@ -76,7 +75,7 @@ body { background: var(--cinza-claro); }
       <span class="tag tag-roxo">📓 Diário de Bordo</span>
       <span class="tag tag-verde">📝 Caderno de Campo</span>
     </div>
-    <div class="destaque" style="margin-top:18px;">📌 Organização adotada: cada aula prevista no planejamento oficial do 2º bimestre foi desdobrada em <strong>2 tempos de 50 minutos</strong>, sem criar conteúdo novo fora dos objetos já definidos — apenas por introdução, aplicação, consolidação e articulação metodológica.</div>
+    <div class="destaque" style="margin-top:18px;">📌 Organização adotada: o index foi ajustado à <strong>carga real de 1 aula semanal de 50 minutos</strong>, respeitando o planejamento reorganizado do 2º bimestre, sem criar conteúdo novo fora dos objetos já definidos.</div>
   </div>
 </div>
 
@@ -88,58 +87,47 @@ body { background: var(--cinza-claro); }
 
 <div class="semanas-grid">
   <div class="semana-bloco"><div class="semana-titulo">Semana 1 — 04 de maio de 2026</div><div class="aulas-row">
-    <a href="aula01.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 13 · 1º Tempo</div><h4>Tipos de pesquisa de acordo com a coleta de dados: introdução</h4><p>Compreender que a turma pode investigar a escola por diferentes caminhos metodológicos.</p></a>
-    <a href="aula02.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 13 · 2º Tempo</div><h4>Aplicando caminhos de pesquisa ao problema da escola</h4><p>Relacionar o problema do grupo aos caminhos de pesquisa mais adequados.</p></a>
+    <a href="aula01.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 13</div><h4>Tipos de pesquisa de acordo com a coleta de dados: introdução</h4><p>Compreender como a turma pode investigar a escola por diferentes caminhos, sem ainda entrar na parte técnica de coleta e tratamento da base.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 2 — 11 de maio de 2026</div><div class="aulas-row">
-    <a href="aula03.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 14 · 1º Tempo</div><h4>Pesquisa bibliográfica para compreender melhor o problema</h4><p>Entender como a pesquisa bibliográfica ajuda o grupo a estudar melhor o tema do problema.</p></a>
-    <a href="aula04.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 14 · 2º Tempo</div><h4>Pesquisa documental e leitura de registros da escola</h4><p>Diferenciar pesquisa documental e reconhecer registros da escola que ajudam a investigação.</p></a>
+    <a href="aula02.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 14</div><h4>Pesquisa bibliográfica e documental</h4><p>Perceber quando o projeto precisa consultar materiais e registros já existentes para compreender melhor o problema estudado.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 3 — 18 de maio de 2026</div><div class="aulas-row">
-    <a href="aula05.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 15 · 1º Tempo</div><h4>Levantamento e estudo de campo na escola</h4><p>Reconhecer quando levantamento e estudo de campo são úteis para investigar a escola.</p></a>
-    <a href="aula06.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 15 · 2º Tempo</div><h4>Estudo de caso, pesquisa-ação e pesquisa experimental</h4><p>Diferenciar estudo de caso, pesquisa-ação e pesquisa experimental em linguagem simples.</p></a>
+    <a href="aula03.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 15</div><h4>Pesquisa experimental, levantamento, estudo de campo, estudo de caso e pesquisa-ação</h4><p>Reconhecer quais formas de pesquisa se aproximam mais do trabalho que a turma está desenvolvendo na escola.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 4 — 25 de maio de 2026</div><div class="aulas-row">
-    <a href="aula07.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 16 · 1º Tempo</div><h4>Etapas do Método Científico: visão geral</h4><p>Compreender as etapas básicas do Método Científico em linguagem acessível.</p></a>
-    <a href="aula08.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 16 · 2º Tempo</div><h4>Aplicando o Método Científico ao problema do grupo</h4><p>Aplicar as etapas do Método Científico ao problema concreto do grupo.</p></a>
+    <a href="aula04.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 16</div><h4>Etapas do Método Científico</h4><p>Organizar o percurso da investigação da turma de forma lógica e coerente.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 5 — 01 de junho de 2026</div><div class="aulas-row">
-    <a href="aula09.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 17 · 1º Tempo</div><h4>Etapas do Método de Engenharia</h4><p>Compreender o Método de Engenharia como caminho da investigação para a solução.</p></a>
-    <a href="aula10.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 17 · 2º Tempo</div><h4>Aplicando o Método de Engenharia ao problema da escola</h4><p>Aplicar o Método de Engenharia ao problema concreto da escola.</p></a>
+    <a href="aula05.html" class="aula-card revisao"><span class="status-badge">✅ Revisão</span><div class="aula-num-label">AULA 17</div><h4>Etapas do Método de Engenharia</h4><p>Compreender que o projeto não quer apenas entender um problema, mas também caminhar para uma solução prática.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 6 — 08 de junho de 2026 · HOJE</div><div class="aulas-row">
-    <a href="aula11.html" class="aula-card hoje hoje-glow"><span class="status-badge">🔥 Aula de Hoje</span><div class="aula-num-label">AULA 18 · 1º Tempo</div><h4>Etapas das Ciências Sociais</h4><p>Compreender as etapas das Ciências Sociais e o olhar para sujeitos, relações e contexto.</p></a>
-    <a href="aula12.html" class="aula-card hoje hoje-glow"><span class="status-badge">🔥 Aula de Hoje</span><div class="aula-num-label">AULA 18 · 2º Tempo</div><h4>Olhar social sobre a escola e o entorno</h4><p>Aplicar o olhar das Ciências Sociais ao contexto da escola e do entorno.</p></a>
+    <a href="aula06.html" class="aula-card hoje hoje-glow"><span class="status-badge">🔥 Aula de Hoje</span><div class="aula-num-label">AULA 18</div><h4>Etapas das Ciências Sociais</h4><p>Aproximar a investigação da realidade humana e institucional da escola.</p></a>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 7 — 15 de junho de 2026</div><div class="aulas-row">
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 19 · 1º Tempo</div><h4>Estratégias e ferramentas para coleta de dados</h4><p>Reconhecer estratégias e ferramentas de coleta ligadas ao problema investigado.</p></div>
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 19 · 2º Tempo</div><h4>Variáveis de estudo e organização das informações</h4><p>Relacionar variáveis de estudo e organização das informações ao problema do grupo.</p></div>
+    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 19</div><h4>Estratégias e ferramentas para coleta de dados, variáveis de estudo e organização de dados</h4><p>Definir o que precisa ser investigado, quais informações são importantes e como elas se relacionam com o problema da escola.</p></div>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 8 — 22 de junho de 2026</div><div class="aulas-row">
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 20 · 1º Tempo</div><h4>Experiência investigativa: organizando o percurso do grupo</h4><p>Compreender experiência investigativa como percurso vivido pelo grupo na pesquisa.</p></div>
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 20 · 2º Tempo</div><h4>Roteiro investigativo resumido do grupo</h4><p>Montar um roteiro investigativo resumido e coerente para o grupo.</p></div>
+    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 20</div><h4>Experiência investigativa</h4><p>Estruturar o caminho da investigação dos grupos dentro do projeto Escola que Queremos.</p></div>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 9 — 29 de junho de 2026</div><div class="aulas-row">
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 21 · 1º Tempo</div><h4>Diário de Bordo como acompanhamento da investigação</h4><p>Compreender o Diário de Bordo como registro contínuo da investigação.</p></div>
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 21 · 2º Tempo</div><h4>Caderno de Campo: registros, evidências e decisões</h4><p>Usar o Caderno de Campo para registrar evidências e observações do contexto escolar.</p></div>
+    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 21</div><h4>Diário de Bordo e Caderno de Campo como acompanhamento da investigação</h4><p>Organizar o registro contínuo do percurso dos grupos e das decisões tomadas ao longo da pesquisa.</p></div>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 10 — 06 de julho de 2026</div><div class="aulas-row">
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 22 · 1º Tempo</div><h4>Articulando Método Científico, Engenharia e projeto</h4><p>Articular Método Científico, Método de Engenharia e outras metodologias no projeto.</p></div>
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 22 · 2º Tempo</div><h4>Do problema à possibilidade de solução</h4><p>Transformar o problema investigado em possibilidade de solução coerente.</p></div>
+    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 22</div><h4>Método de Engenharia, Método Científico e outras metodologias aplicadas à solução</h4><p>Articular investigação e solução, mantendo coerência entre o problema estudado e a forma de enfrentá-lo.</p></div>
   </div></div>
 
   <div class="semana-bloco"><div class="semana-titulo">Semana 11 — 13 de julho de 2026</div><div class="aulas-row">
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 23 · 1º Tempo</div><h4>Consolidação do Projeto/Plano de Investigação</h4><p>Consolidar o Projeto/Plano de Investigação da turma.</p></div>
-    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 23 · 2º Tempo</div><h4>Fechamento da Entrega 1 do bimestre</h4><p>Fechar a Entrega 1 do bimestre com síntese clara do percurso investigativo.</p></div>
+    <div class="aula-card breve"><span class="status-badge">🔒 Em Breve</span><div class="aula-num-label">AULA 23</div><h4>Consolidação da Entrega 1 da disciplina</h4><p>Finalizar o Projeto/Plano de Investigação da turma, com problema, justificativa, pergunta, hipótese, objetivos, público, metodologia, procedimentos, registros e critérios éticos.</p></div>
   </div></div>
 </div>
 
